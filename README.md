@@ -1,3 +1,3 @@
 # tiffkwin.github.io
-Welcome to my website!
+Welcome to my personal website!
 
