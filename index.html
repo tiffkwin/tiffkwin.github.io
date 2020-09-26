@@ -92,8 +92,8 @@ body, html {
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">TIFFANY<span class="w3-hide-small"> NGUYEN</span></span>
+  <div class="w3-display-middle" style="white-space:nowrap;" onclick="hehe()">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">TIFFANY<span class="w3-hide-small"> NGUYEN</span><img id="potato" src="potato.jpg" style="height:1.3rem; display:none;"/></span>
   </div>
 </div>
 
@@ -350,6 +350,12 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+function hehe() {
+  var potato = document.getElementById("potato");
+  potato.style.display = potato.style.display ? null : "none";
+}
+
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyXWe2wrpVyVQWQGtoNZuvwNnOP8KYb20&callback=myMap"></script>
 <!--
